@@ -30,6 +30,9 @@ dependencies {
 
     runtimeOnly 'com.mysql:mysql-connector-j'
 
+    // Axon을 사용하기 위한 Spring Boot Starter 라이브러리
+    implementation 'org.axonframework:axon-spring-boot-starter:4.8.2'
+
     developmentOnly 'org.springframework.boot:spring-boot-docker-compose'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
