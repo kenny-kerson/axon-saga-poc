@@ -9,5 +9,4 @@ public class AxonSagaPocApplication {
     public static void main(String[] args) {
         SpringApplication.run(AxonSagaPocApplication.class, args);
     }
-
 }

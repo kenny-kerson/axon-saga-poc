@@ -7,4 +7,4 @@ services:
       - 'MYSQL_ROOT_PASSWORD=1qaz@WSX'
       - 'MYSQL_USER=devdml'
     ports:
-      - '3306'
+      - '3306:3306'
